@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Hi+Melody&display=swap');
+
+* {
+}
+
+html {
+  background: rgb(13, 57, 118);
+  color: white;
+  font-family: 'Hi Melody', cursive;
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root div {
+  width: 768px;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: rgb(255, 247, 0);
+  border-bottom: 3px solid rgb(255, 247, 0);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.nav li {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.nav a {
+  padding-bottom: 15px;
+}
+
+.topics li a {
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
