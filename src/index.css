@@ -43,25 +43,6 @@ a {
   text-decoration: none;
 }
 
-.active {
-  color: rgb(255, 247, 0);
-  border-bottom: 3px solid rgb(255, 247, 0);
-}
-
 h1 {
   font-size: 3rem;
-}
-
-.nav li {
-  font-size: 1.5rem;
-  font-weight: bolder;
-}
-
-.nav a {
-  padding-bottom: 15px;
-}
-
-.topics li a {
-  padding-bottom: 10px;
-  margin-bottom: 50px;
 }
